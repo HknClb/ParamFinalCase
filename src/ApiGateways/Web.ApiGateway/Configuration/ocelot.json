@@ -1,0 +1,62 @@
+{
+  "Routes": [
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "IdentityService",
+      "DownstreamPathTemplate": "/api/auth",
+      "DownstreamScheme": "https",
+
+      "UpstreamPathTemplate": "/auth",
+      "UpstreamHttpMethod": [ "Post", "Put" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "IdentityService",
+      "DownstreamPathTemplate": "/api/auth/refreshtokensignin",
+      "DownstreamScheme": "https",
+
+      "UpstreamPathTemplate": "/auth/refreshtokensignin",
+      "UpstreamHttpMethod": [ "Put" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "TodoAppReadService",
+      "DownstreamPathTemplate": "/api/ShoppingLists",
+      "DownstreamScheme": "https",
+
+      "UpstreamPathTemplate": "/ShoppingLists",
+      "UpstreamHttpMethod": [ "Get" ],
+
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "TodoAppWriteService",
+      "DownstreamPathTemplate": "/api/ShoppingLists/{everything}",
+      "DownstreamScheme": "https",
+
+      "UpstreamPathTemplate": "/ShoppingLists/{everything}",
+      "UpstreamHttpMethod": [ "Post", "Put", "Delete" ]
+    },
+    {
+      "UseServiceDiscovery": true,
+      "ServiceName": "TodoAppWriteService",
+      "DownstreamPathTemplate": "/api/ShoppingLists",
+      "DownstreamScheme": "https",
+
+      "UpstreamPathTemplate": "/ShoppingLists",
+      "UpstreamHttpMethod": [ "Post", "Put", "Delete" ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:7093",
+    "ServiceDiscoveryProvider": {
+      "Host": "localhost",
+      "Port": 8500,
+      "Type": "Consul"
+    }
+  }
+}

@@ -1,0 +1,701 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\todoApp\\TodoApp.ReadApi\\TodoApp.ReadApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.Application\\Core.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.Application\\Core.Application.csproj",
+        "projectName": "Core.Application",
+        "projectPath": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.Application\\Core.Application.csproj",
+        "packagesPath": "C:\\Users\\hkncl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hkncl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.Domain\\Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.Domain\\Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.25, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj",
+        "projectName": "Core.CrossCuttingConcerns",
+        "projectPath": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj",
+        "packagesPath": "C:\\Users\\hkncl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.CrossCuttingConcerns\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hkncl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.Domain\\Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.Domain\\Core.Domain.csproj",
+        "projectName": "Core.Domain",
+        "projectPath": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.Domain\\Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\hkncl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hkncl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj",
+        "projectName": "Core.Persistence",
+        "projectPath": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj",
+        "packagesPath": "C:\\Users\\hkncl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hkncl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.Application\\Core.Application.csproj": {
+                "projectPath": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.Application\\Core.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.Security\\Core.Security.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.Security\\Core.Security.csproj",
+        "projectName": "Core.Security",
+        "projectPath": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.Security\\Core.Security.csproj",
+        "packagesPath": "C:\\Users\\hkncl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.Security\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hkncl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.Domain\\Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.Domain\\Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.27.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.27.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\todoApp\\TodoApp.Application\\TodoApp.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\todoApp\\TodoApp.Application\\TodoApp.Application.csproj",
+        "projectName": "TodoApp.Application",
+        "projectPath": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\todoApp\\TodoApp.Application\\TodoApp.Application.csproj",
+        "packagesPath": "C:\\Users\\hkncl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\todoApp\\TodoApp.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hkncl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.Application\\Core.Application.csproj": {
+                "projectPath": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.Application\\Core.Application.csproj"
+              },
+              "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj": {
+                "projectPath": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.CrossCuttingConcerns\\Core.CrossCuttingConcerns.csproj"
+              },
+              "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\todoApp\\TodoApp.Domain\\TodoApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\todoApp\\TodoApp.Domain\\TodoApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.5.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\todoApp\\TodoApp.Domain\\TodoApp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\todoApp\\TodoApp.Domain\\TodoApp.Domain.csproj",
+        "projectName": "TodoApp.Domain",
+        "projectPath": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\todoApp\\TodoApp.Domain\\TodoApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\hkncl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\todoApp\\TodoApp.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hkncl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.Domain\\Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.Domain\\Core.Domain.csproj"
+              },
+              "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.Security\\Core.Security.csproj": {
+                "projectPath": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.Security\\Core.Security.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\todoApp\\TodoApp.Persistence\\TodoApp.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\todoApp\\TodoApp.Persistence\\TodoApp.Persistence.csproj",
+        "projectName": "TodoApp.Persistence",
+        "projectPath": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\todoApp\\TodoApp.Persistence\\TodoApp.Persistence.csproj",
+        "packagesPath": "C:\\Users\\hkncl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\todoApp\\TodoApp.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hkncl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj": {
+                "projectPath": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj"
+              },
+              "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.Security\\Core.Security.csproj": {
+                "projectPath": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\corePackages\\Core.Security\\Core.Security.csproj"
+              },
+              "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\todoApp\\TodoApp.Application\\TodoApp.Application.csproj": {
+                "projectPath": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\todoApp\\TodoApp.Application\\TodoApp.Application.csproj"
+              },
+              "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\todoApp\\TodoApp.Domain\\TodoApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\todoApp\\TodoApp.Domain\\TodoApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\todoApp\\TodoApp.ReadApi\\TodoApp.ReadApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\todoApp\\TodoApp.ReadApi\\TodoApp.ReadApi.csproj",
+        "projectName": "TodoApp.ReadApi",
+        "projectPath": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\todoApp\\TodoApp.ReadApi\\TodoApp.ReadApi.csproj",
+        "packagesPath": "C:\\Users\\hkncl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\todoApp\\TodoApp.ReadApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hkncl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\todoApp\\TodoApp.Persistence\\TodoApp.Persistence.csproj": {
+                "projectPath": "C:\\Users\\hkncl\\Desktop\\Param\\FinalCase\\FinalCase\\src\\todoApp\\TodoApp.Persistence\\TodoApp.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Consul": {
+              "target": "Package",
+              "version": "[1.6.10.8, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
